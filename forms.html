@@ -78,6 +78,22 @@
         </p>
         <button>Submit</button>
 
+        <h2>Validations Form</h2>
+        <form action="/dummy">
+            <p>
+                <label for="first">Enter First Name</label>
+                <input type="text" name="first" id="first" required>
+            </p>
+            <p>
+                <label for="uname">Enter First Name</label>
+                <input type="text" name="uname" id="uname" required minlength="3" maxlength="12" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <button>submit</button>
+        </form>
     </form>
     
 </body>
